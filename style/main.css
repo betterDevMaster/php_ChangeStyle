@@ -1,0 +1,893 @@
+ *{-webkit-transition: all 200ms ease-in-out;-moz-transition: all 200ms ease-in-out;-o-transition: all 200ms ease-in-out;transition: all 200ms ease-in-out;}
+
+ body
+{
+	margin: 0px;
+	padding: 0px;
+	color: #11153C;
+	overflow-x: hidden;
+}
+
+#headerContainer
+{
+		width: 100%;
+		height: 53px;
+		float: left;
+/*		background-color: #60BC58;*/
+		margin-top: 29px;
+}
+
+#header
+{
+	width: 900px;
+	height: 100%;
+	margin: auto;
+}
+
+#logo
+{
+	float: left;
+	margin-top: -27px;
+}
+
+#poweredBy
+{
+	float: left;
+	margin-left: 20px;
+	margin-top: -10px;
+}
+
+#menuItems
+{
+	color: #000;
+    float: right;
+    font-family: 'CenturyGothicBold';
+    font-size: 13px;
+    margin-top: 30px;
+}
+
+.menuItem
+{
+	float: left;
+	margin-left: 35px;
+	cursor: pointer;
+}
+
+.menuItem
+{
+	float: left;
+	margin-left: 35px;
+	cursor: pointer;
+}
+
+#subHeaderContainer
+{
+	width: 100%;
+	float: left;
+	font-family: 'CenturyGothicRegular';
+}
+
+#subHeader
+{
+	font-size: 25pt;
+    margin: 50px auto;
+    text-align: center;
+    width: 1200px;
+}
+
+#thirdHeaderContainer
+{
+	width: 100%;
+	float: left;
+	background-color: #10153c;
+	font-family: 'CenturyGothicRegular';
+}
+
+#thirdHeader
+{
+	width: 1200px;
+	margin: auto;
+}
+
+#thirdHeaderSubSlogan
+{
+	color: #ffffff;
+    float: left;
+    font-size: 28pt;
+    text-align: center;
+    width: 100%;
+	margin-top: 38px;
+}
+
+#thirdHeaderSubText
+{
+	color: #fff;
+    float: left;
+    font-size: 16pt;
+    text-align: center;
+    width: 100%;
+	margin-top: 10px;
+}
+
+#steps
+{
+	color: #fff;
+    float: left;
+    padding: 20px 0px;
+    width: 1200px;
+}
+
+#step1
+{
+	float: left;
+    width: 361px;
+    margin-left: 70px;
+}
+
+#step1Desc
+{
+	float: left;
+    margin-top: 24px;
+}
+
+#carImg
+{
+	float: left;
+}
+
+#lblStep1
+{
+	color: #61BA46;
+	font-size: 14pt;
+	font-weight: bold;
+}
+
+#lblStep1Desc
+{
+	float: left;
+    font-size: 12pt;
+    margin-left: 14px;
+    text-align: justify;
+    width: 165px;
+}
+
+#step2
+{
+	float: left;
+    width: 341px;
+	margin-left: 30px;
+}
+
+#step2Desc
+{
+	float: left;
+    margin-top: 24px;
+}
+
+#phoneImg
+{
+	float: left;
+}
+
+#lblStep2
+{
+	color: #61BA46;
+	font-size: 14pt;
+	font-weight: bold;
+}
+
+#lblStep2Desc
+{
+	float: left;
+    font-size: 12pt;
+    margin-left: 14px;
+    text-align: justify;
+    width: 200px;
+}
+
+#step3
+{
+	float: left;
+    width: 328px;
+	margin-left: 10px;
+}
+
+#step3Desc
+{
+	float: left;
+    margin-top: 24px;
+}
+
+#keyImg
+{
+	float: left;
+}
+
+#lblStep3
+{
+	color: #61BA46;
+	font-size: 14pt;
+	font-weight: bold;
+}
+
+#lblStep3Desc
+{
+	float: left;
+    font-size: 12pt;
+    margin-left: 14px;
+    text-align: justify;
+    width: 164px;
+}
+
+#makeContainer
+{
+	float:left;
+	width: 100%;
+	min-height: 1264px;
+	font-family: 'CenturyGothicRegular';
+	margin-bottom: 100px;
+}
+
+#make
+{
+	width: 970px;
+	margin: auto;
+}
+
+#lblMake
+{
+	float: left;
+    font-size: 31pt;
+    margin-top: 47px;
+    width: 100%;
+	margin-left: 50px;
+}
+
+#makeOptionItems
+{
+	float: left;
+}
+
+.makeOption
+{
+	background-color: #e7e7e8;
+    cursor: pointer;
+    float: left;
+    font-size: 15pt;
+    height: 54px;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding-top: 32px;
+    text-align: center;
+    width: 180px;
+	opacity: 0;
+}
+.makeOption:hover , .makeSelected
+{
+	background-color: #5ebc58;
+}
+
+.questionContainer
+{
+	float: left;
+	width: 100%;
+	color: #FFF;
+	font-family: 'CenturyGothicRegular';
+	display: none;
+	opacity: 0;
+}
+
+.questionHeaderContainer
+{
+	background-color: #10153c;
+    width: 100%;
+}
+
+.questionHeader
+{
+	height: 134px;
+    margin: auto;
+    width: 1000px;
+}
+
+.questionLogo
+{
+	float: left;
+	width: 15%;
+}
+
+.questions
+{
+	float: left;
+    height: 100%;
+	width: 85%;
+}
+
+.question
+{
+	border-right: 1px solid #fff;
+    float: left;
+    height: 100%;
+    text-align: center;
+    width: 200px;
+}
+
+.questionName
+{
+	float: left;
+    font-size: 16pt;
+    margin-top: 19px;
+    width: 100%;
+}
+
+.questionAnswer
+{
+    color: #60bc58 !important;
+    float: left;
+    font-size: 21pt;
+    width: 100%;
+}
+
+.lblQuestionContainer
+{
+	margin: auto;
+    width: 1200px;
+	color: #11153C;
+}
+
+.questionBackButtonContainer
+{
+	margin: auto;
+    width: 1200px;
+}
+
+.lblQuestion
+{
+	float: left;
+	width: 100%;
+	margin: 51px auto auto;
+	font-size: 31pt;
+	margin-left: 35px;
+	text-align:center;
+}
+
+.makeChoosen
+{
+	color: #60BC58;
+}
+
+.modelChoosen
+{
+	color: #60BC58;
+}
+
+#modelOptions
+{
+	margin: auto;
+    width: 960px;
+}
+
+.modelContainer
+{
+	float: left;
+	width: 100%;
+	margin-top: 79px;
+}
+
+.model
+{
+	background-color: #e7e7e8;
+    color: #11153c;
+    cursor: pointer;
+    float: left;
+    font-size: 16pt;
+    height: 100px;
+    line-height: 100px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    text-align: center;
+    width: 220px;
+	overflow: hidden;
+}
+
+.model:hover
+{
+	background-color: #5ebc58;
+}
+
+.btnGoBackContainer
+{
+	float: left;
+    height: 270px;
+    margin-bottom: 100px;
+    margin-top: 70px;
+    width: 100%;
+}
+
+.btnGoBackContainer.anythingElseBack
+{
+	float: left;
+    height: 270px;
+    margin-bottom: 100px;
+    margin-top: 70px;
+    padding: 0 400px;
+    width: 100%;
+}
+
+.btnGoBack.anythingElseBack
+{
+	background-color: #e7e7e8;
+    cursor: pointer;
+    height: 62px;
+    margin: auto;
+    margin-left: 360px;
+    padding-left: 27px;
+    padding-right: 27px;
+    padding-top: 30px;
+    width: 119px;
+}
+
+.btnGoBack
+{
+	background-color: #e7e7e8;
+    cursor: pointer;
+    height: 62px;
+    margin: auto;
+    padding-left: 27px;
+    padding-right: 27px;
+    padding-top: 30px;
+    width: 119px;
+}
+.btnGoBack:hover
+{
+	background-color: #5ebc58;
+}
+
+#yearContainer
+{
+	float: left;
+    margin-top: 70px;
+    width: 100%;
+}
+
+#year
+{
+	margin: auto;
+	width: 900px;
+}
+
+#lblTo
+{
+	color: #11153c;
+	float: left;
+	font-size: 21pt;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 73px;
+	width: 36px;
+}
+
+.yearContainer
+{
+	float: left;
+    width: 420px;
+}
+
+.lblYear
+{
+	color: #11153c;
+    float: left;
+    font-size: 21pt;
+    text-align: center;
+    width: 100%;
+}
+
+.yearValueContainer
+{
+	border: 8px solid #e7e7e8;
+    float: left;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 379px;
+}
+
+.yearValue
+{
+	color: #60bc58;
+    float: left;
+    font-family: 'Myriad Pro';
+    font-size: 60pt;
+    margin-left: 82px;
+}
+
+.yearArrow
+{
+	cursor: pointer;
+    float: left;
+    margin-left: 67px;
+    margin-top: 27px;
+}
+#btnYearNextContainer
+{
+	float: left;
+	width: 100%;
+}
+#btnYearNext
+{
+	background-color: #10153c;
+    cursor: pointer;
+    font-size: 28pt;
+    height: 64px;
+    margin: 79px auto auto;
+    padding-top: 20px;
+    text-align: center;
+    width: 110px;
+}
+
+#btnYearNext:hover
+{
+	background-color: #5ebc58;
+}
+
+#priceContainer
+{
+	float: left;
+    width: 100%;
+}
+
+#price
+{
+	margin: auto;
+    width: 701px;
+	margin-top: 109px;
+}
+
+#lblMaxPrice
+{
+	color: #11153c;
+    float: left;
+    font-size: 21pt;
+    text-align: center;
+    width: 100%;
+}
+
+#priceValueContainer
+{
+	border: 8px solid #e7e7e8;
+    color: #60bc58;
+    float: left;
+    font-family: 'Myriad Pro';
+    font-size: 60pt;
+    padding: 20px;
+    margin-top: 6px;
+}
+
+#priceValue
+{
+}
+
+#btnPriceNext
+{
+	background-color: #10153c;
+    float: left;
+    font-size: 45pt;
+    margin-left: 35px;
+    margin-top: 16px;
+    padding: 30px;
+	cursor: pointer;
+}
+
+#btnPriceNext:hover
+{
+	background-color: #5ebc58;	
+}
+
+#edmundPriceContainer
+{
+	color: #0f1235;
+    float: left;
+    width: 100%;
+}
+
+#edmundPrice
+{
+	margin: auto;
+    width: 1200px;
+}
+
+#lblHelp
+{
+	float: left;
+    font-size: 24pt;
+    margin-top: 82px;
+    text-align: center;
+    width: 100%;
+}
+
+#priceTable
+{
+	float: left;
+    margin-top: 54px;
+    width: 960px;
+    padding: 0 200px;
+}
+
+.edmundPriceItem
+{
+	background-color: #e7e7e8;
+    cursor: pointer;
+    float: left;
+    font-family: 'CenturyGothicBold';
+    font-size: 21pt;
+    height: 75px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    padding-top: 10px;
+    text-align: center;
+    width: 152px;
+}
+
+.oneLine
+{
+	background-color: #e7e7e8;
+    cursor: pointer;
+    float: left;
+    font-family: 'CenturyGothicBold';
+    font-size: 21pt;
+    height: 60px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    padding-top: 22px;
+    text-align: center;
+    width: 152px;
+}
+
+.edmundPriceItemActive
+{
+	background-color: #0e1235 !important;
+	color: #FFF;
+}
+
+#anythingElseContainer
+{ 
+	float: left;
+    width: 100%;
+    padding: 0 40px;
+}
+
+#anythingElseBox
+{
+	border: 8px solid #e7e7e8;
+    float: left;
+    height: 313px;
+    width: 804px;
+}
+
+#anythingElseBox textarea
+{
+	font-family: 'CenturyGothicRegular';
+    font-size: 20pt;
+    height: 306px;
+    resize: none;
+    width: 798px;
+	border: none;
+}
+
+#anythingElseNext
+{
+	background-color: #10153c;
+    cursor: pointer;
+    float: left;
+    font-size: 45pt;
+    margin-left: 35px;
+    margin-top: 96px;
+    padding: 30px;
+	color: #FFF;
+}
+
+#anythingElseNext:hover
+{
+	background-color: #5ebc58;
+}
+
+#contactFormContainer
+{
+	color: #11153c;
+    float: left;
+    width: 100%;
+}
+
+#contactForm
+{
+	margin: auto;
+	width: 552px;
+	margin-top: 100px;
+}
+
+.fieldContainer
+{
+	float: left;
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+.fieldLabel
+{
+	float: left;
+    font-size: 18pt;
+    width: 219px;
+    margin-top: 5px;
+}
+
+.fieldLabel.contactMethod
+{
+    width: 100%;
+
+}
+
+.fieldInput
+{
+	float: left;
+}
+
+.fieldInputRadio
+{
+	padding-left: 219px;
+	margin-top: 50px;
+}
+
+.fieldRadio
+{
+	margin-bottom: 15px;
+}
+
+.fieldInput input
+{
+	font-size: 21pt;
+	border: 3px solid #e7e7e8;
+	font-family: 'CenturyGothicRegular';
+}
+#doneButtonContainer
+{
+	float: left;
+	width: 100%;
+}
+#doneButton
+{
+	background-color: #10153c;
+    color: #fff;
+    cursor: pointer;
+    font-size: 41pt;
+    height: 76px;
+    margin: auto;
+    padding: 20px;
+    width: 198px;
+	text-align: center;
+}
+
+#doneButton:hover
+{
+	background-color: #5ebc58;
+}
+
+#greenCarContainer
+{
+	float: left;
+	width: 100%;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+#greenCar
+{
+	margin: auto;
+    width: 431px;
+}
+
+#finalMessage
+{ 
+	color: #11153c;
+    float: left;
+    font-size: 31pt;
+    text-align: center;
+    width: 100%;
+}
+
+#footerContainer
+{
+	background-color: #5ebc58;
+    color: #11153c;
+    float: left;
+    font-family: 'CenturyGothicRegular';
+    height: 57px;
+    margin-top: 100px;
+    width: 100%;
+}
+
+#footer
+{
+    font-size: 10pt;
+    margin: 22px auto auto;
+    width: 1200px;
+}
+
+.yearOptions
+{
+	background-color: #e7e7e8;
+    height: 312px;
+    margin-left: -8px;
+    margin-top: 111px;
+    position: absolute;
+    width: 395px;
+    z-index: 1000;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+.yearOption
+{
+	color: #11153c;
+    cursor: pointer;
+    float: left;
+    font-size: 60pt;
+    text-align: center;
+    width: 100%;
+}
+
+.yearOption:hover
+{
+	background-color: #FFF;
+}
+
+#priceValue input
+{
+	color: #60bc58;
+    font-family: 'Myriad Pro';
+    font-size: 60pt;
+	border: none;
+	width: 361px;
+	text-align: center;
+}
+
+#paymentContainer
+{
+	border: medium none;
+    height: 500px;
+    margin: 50px auto auto;
+    width: 802px;
+}
+
+#paymentContainer iframe
+{
+	border: medium none;
+    height: 100%;
+    width: 100%;
+}
+
+label.error
+{
+	color: red;
+    margin-left: 10px;
+    margin-top: 12px;
+    position: absolute;
+}
+
+#priceValue label.error
+{
+	font-size: 19pt;
+    margin-left: -231px;
+    margin-top: 154px;
+}
+
+a:link {
+color: #000;
+}
+a:visited {
+color: #000;
+}
+a:hover {
+color: #000;
+}
+a:active {
+color: #000;
+}
